@@ -1,0 +1,52 @@
+.sidebar{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: -727px; */
+    position: sticky;
+    top: 30px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    z-index: 1;
+    height: 100vh;
+
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}
+
+.sb_container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.lines{
+    height: 50px;
+    width: 50px;
+}
+
+.title{
+    font-weight: bold;
+    margin-top: -12px;
+    color: black;
+    
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.listItem{
+    margin: 12px 0px;
+    color: rgb(102, 102, 102);
+    font-weight: 400;
+    cursor: pointer;
+}

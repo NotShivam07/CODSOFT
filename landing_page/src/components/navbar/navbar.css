@@ -1,0 +1,74 @@
+.navbar{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+}
+
+.container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navOptions{
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navIcon{
+    width: 45px;
+    height: 45px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.signIn{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+}
+
+.line{
+    display: flex;
+    flex-direction: column;
+}
+
+hr{
+    height: 30px;
+    color: rgb(237, 237, 237);
+}
+
+.register{
+    background-color: #e4002b;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
